@@ -1,3 +1,13 @@
+# Reconciled release — 26 October 2026
+
+This package supersedes the previous incorrectly labelled “latest version” ZIP. It restores the requested **The Boston Globe**, **The Conversation** (Guatemala, 2026), **Substack**, **Etchart exhibition**, and **Historia Contemporánea** links; removes the unwanted 2019 Zócalo essay; and preserves the latest books, project, photograph, map, teaching, and contact-form changes.
+
+Check for the article “The Long History of Americans’ Sheepishness About Lamb” in the Public History section to verify that you are viewing the corrected release. The author confirmed the links and projects in prior instructions. Some external sites may restrict access or require a subscription.
+
+Only `index.html`, `cv.html`, and `README.md` differ from the previous ZIP; existing image assets are unchanged. You can replace just those files in the GitHub repository root.
+
+---
+
 # Iker Saitua — personal academic website
 
 A bilingual-friendly (content currently in English), responsive academic website with no paid services, frameworks, build steps, or external font dependencies. Inspired by clean, editorial websites common in economic history and other social sciences.
@@ -95,3 +105,12 @@ All three are stored locally; GitHub Pages does not need to load them from an ex
 ### Master’s programme link
 
 The 2026–27 Politics and Economics teaching listing includes a link to the EHU programme and notes that the programme is taught in Spanish (3 ECTS): https://www.ehu.eus/es/web/master/master-economia-publica/programa
+
+
+## Teaching layout adjustment (26 October 2026)
+
+In the Classroom now uses the same compact format for all three courses: linked title, programme and language. The Master’s in Public Economics entry links via its course title to the official EHU programme page and is marked Spanish. The previous extended paragraph and ECTS suffix have been removed.
+
+
+## Final update (27 October 2026)
+The external course-site link previously displayed beneath **In the classroom** has been removed. The Teaching section and all three university subject links remain.

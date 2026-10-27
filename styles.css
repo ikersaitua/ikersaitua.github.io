@@ -80,3 +80,8 @@ img{max-width:100%;height:auto}a{color:inherit;text-decoration-color:#c29b86;tex
 /* Official course link without changing the teaching list typography. */
 .course-official-link{color:inherit;text-decoration:underline;text-decoration-color:var(--accent);text-decoration-thickness:1px;text-underline-offset:3px}
 .course-official-link:hover,.course-official-link:focus-visible{text-decoration-thickness:2px}
+
+/* Based in: academic home and discreet postal address */
+.contact-sidebar h3{overflow-wrap:break-word;line-height:1.28}
+.contact-sidebar .contact-campus{font-size:.78em;color:var(--ink-soft)}
+.contact-sidebar .contact-postal-address{font-style:normal;font-size:12px;line-height:1.8;color:var(--ink-soft)}
