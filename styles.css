@@ -85,3 +85,23 @@ img{max-width:100%;height:auto}a{color:inherit;text-decoration-color:#c29b86;tex
 .contact-sidebar h3{overflow-wrap:break-word;line-height:1.28}
 .contact-sidebar .contact-campus{font-size:.78em;color:var(--ink-soft)}
 .contact-sidebar .contact-postal-address{font-style:normal;font-size:12px;line-height:1.8;color:var(--ink-soft)}
+
+/* November 2026: centered navigation and a personal, multipage structure. */
+.site-header{position:relative;background:var(--paper);backdrop-filter:none;border-bottom:none}
+.header-inner{display:flex;flex-direction:column;justify-content:center;gap:24px;padding:32px 0 22px;min-height:0}
+.brand{text-align:center}.brand-name{font-size:35px;letter-spacing:-1.2px}.brand-subtitle{font-size:10px;letter-spacing:2.5px;margin-top:9px}
+.primary-nav{justify-content:center;flex-wrap:wrap;gap:8px 25px;font-size:13px;font-weight:500;white-space:normal}
+.primary-nav a{padding:4px 0;border-bottom:1px solid transparent}.primary-nav a[aria-current='page']{border-bottom-color:var(--accent)}
+.home-intro{padding-top:54px;padding-bottom:90px}.home-intro h1{text-align:center;font-size:clamp(38px,4.5vw,62px);margin:0 0 48px;line-height:1.15;letter-spacing:-1.6px}
+.mobile-break{display:none}.home-columns{display:grid;grid-template-columns:.92fr 1fr 1fr;gap:35px;align-items:start}.home-columns p{font-size:15px;line-height:1.85;margin-bottom:23px}.home-columns a{text-decoration-thickness:1px}
+.home-portrait>img{width:100%;height:auto;display:block}.home-portrait .portrait-caption{font-size:11px;line-height:1.6;color:var(--ink-soft);margin:13px 0 25px;letter-spacing:.5px}
+.home-book{border-top:1px solid var(--line);padding-top:23px;display:grid;grid-template-columns:75px 1fr;gap:18px;align-items:center}.home-book img{display:block;width:75px;height:auto}.home-book .status-line{font-size:9px;letter-spacing:.7px}.home-book div>a{font-family:var(--serif);font-size:23px;display:block;margin:5px 0}.home-book small{display:block;font-size:11px;color:var(--ink-soft)}
+.latest-essay{border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:20px 0;margin:0 0 25px}.latest-essay .status-line{font-size:9px}.latest-essay>a{display:block;font-family:var(--serif);font-size:22px;line-height:1.4;margin-top:9px}
+#main>.section{padding-block:55px 85px;border-top:none}#main>.section>.section-label{display:none}#main>.section:not(.project-section){display:block}#main>.section .section-content>h1{font-size:55px;margin-top:0}
+#books .section-heading-row h1{font-size:55px;margin:0}#books .section-heading-row{margin-bottom:35px}#books .book-grid{gap:50px}
+#public-writing .public-grid{grid-template-columns:.7fr 1.3fr}#public-writing h1{font-size:55px;margin-top:0}#public-writing .public-links a:first-child{padding-top:24px}
+#teaching h1{font-size:55px;margin-top:0}.project-shell{display:block}.project-section h1{font-size:55px;margin-top:0}.interior-hero{padding-top:55px}.site-footer{margin-top:0}
+@media(max-width:1000px){.home-columns{gap:25px}.home-columns p{font-size:14px}.primary-nav{gap:8px 18px}.home-intro h1{font-size:48px}}
+@media(max-width:820px){.header-inner{position:relative;gap:18px}.primary-nav{position:static;display:flex;background:none;box-shadow:none;border:0;padding:0;grid-template-columns:none}.menu-toggle{display:none}.home-columns{grid-template-columns:.75fr 1.25fr;gap:28px}.home-work{grid-column:2}.home-bio{grid-column:2;grid-row:1}.home-portrait{grid-column:1;grid-row:1 / span 2}.home-columns p{font-size:15px}.home-intro{padding-top:30px}.home-intro h1{font-size:44px;margin-bottom:35px}}
+@media(max-width:600px){.header-inner{padding-top:25px;padding-bottom:16px;gap:16px}.brand-name{font-size:31px}.menu-toggle{display:flex}.primary-nav{display:none;width:100%;grid-template-columns:1fr 1fr;gap:5px 18px;text-align:center}.primary-nav.is-open{display:grid}.primary-nav a{font-size:14px}.home-intro{padding-top:22px;padding-bottom:55px}.home-intro h1{font-size:38px;letter-spacing:-1px;margin-bottom:28px}.mobile-break{display:inline}.home-columns{display:flex;flex-direction:column;gap:28px}.home-portrait{width:100%;max-width:350px;margin-inline:auto}.home-bio,.home-work{width:100%}.home-columns p{font-size:16px;line-height:1.8}.home-book{margin-bottom:6px}#main>.section{padding-block:30px 55px}#main>.section h1,#books .section-heading-row h1,#public-writing h1,#teaching h1{font-size:40px}#public-writing .public-grid{display:block}.interior-hero{padding-top:30px}.interior-hero h1{font-size:40px}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}

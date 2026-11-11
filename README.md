@@ -1,9 +1,7 @@
-# Iker Saitua — personal website
+# Iker Saitua — website redesign, 11 November 2026
 
-Updated 11 November 2026.
+Centered name and navigation; personal homepage with portrait, biography, writing and current work. Existing cream, slate-blue and terracotta palette preserved.
 
-Public Writing replaces Public history in all navigation menus. The homepage lists three articles from The Conversation, one from The Boston Globe and two selected Zócalo essays. Exhibition and editorial service remain in cv.html. The original downloadable academic CV is unchanged.
+Pages: Home, Books, Research, Public Writing, Publications, Teaching, CV, Contact. Existing article links, book descriptions, project, publications, teaching, CV and contact form retained. Previous homepage section bookmarks redirect to the relevant new page.
 
-Upload these four changed files to the root of the existing GitHub Pages repository: index.html, publications.html, cv.html, contact.html. The README may also be replaced. Assets, styles and scripts are unchanged.
-
-To view locally, open index.html. Unzip before uploading; do not upload the ZIP itself.
+Unzip and upload all HTML files, styles.css and script.js to the existing GitHub repository root. Existing assets and PDF are unchanged. Do not upload the enclosing folder or ZIP. This package has not been deployed to GitHub.
